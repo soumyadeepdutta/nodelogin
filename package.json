@@ -1,0 +1,32 @@
+{
+  "name": "nodelogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadeepdutta/nodelogin.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt"
+  ],
+  "author": "soumyadeep dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadeepdutta/nodelogin/issues"
+  },
+  "homepage": "https://github.com/soumyadeepdutta/nodelogin#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
